@@ -13,12 +13,12 @@
 ## 1.1 Linux
 一键安装命令（每天自动从官网定时同步）
 ```
-sudo curl -fsSL https://github.com/ahwwbm/docker_installer/releases/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://github.com/ahwwbm/docker_installer/releases/tag/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 > 备用（如果Github访问不了，可以使用Gitee的链接）<br>
 ```
-sudo curl -fsSL https://gitee.com/ahwwbm/docker_installer/releases/latest/linux.sh| bash -s docker --mirror Aliyun
+sudo curl -fsSL https://gitee.com/ahwwbm/docker_installer/releases/tag/latest/linux.sh| bash -s docker --mirror Aliyun
 ```
 
 启动docker
